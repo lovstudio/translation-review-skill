@@ -1,5 +1,5 @@
 schema: skill-manifest/v1
-id: sgc-translation-review
+id: lov-translation-review
 version: 1.0.1
 runtime: skill-runtime/v1
 context:
