@@ -12,13 +12,15 @@ license: MIT
 compatibility: >
   No external dependencies. Supports .docx (via pandoc), .md, and .txt input files.
   Requires pandoc for docx conversion (`brew install pandoc`).
+depends_on:
+  - lov-branding-consistency
 metadata:
   author: contributors
-  version: "1.1.0"
+  version: "1.1.1"
   tags: translation, review, chinese, english, proofreading
 ---
 
-# translation-review — Chinese-English Translation Review
+# 译文校对 · Translation Review
 
 Systematically compare a Chinese source document against its English translation,
 identify issues across 6 dimensions, and produce a prioritized review report.
